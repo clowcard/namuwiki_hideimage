@@ -13,12 +13,14 @@ var image_hidden = true;
 function hide_image() {
     $('.wiki-image').attr('image-hidden', 'true');
     $('.wiki-image').css('visibility', 'hidden');
+    $('.wiki-youtube').css('visibility', 'hidden');
     image_hidden = true;
 }
 
 function show_image() {
     $('.wiki-image').attr('image-hidden', 'false');
     $('.wiki-image').css('visibility', 'visible');
+    $('.wiki-youtube').css('visibility', 'visible');
     image_hidden = false;
 }
 
